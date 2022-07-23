@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "c-ui-icons"; /* Project id 3515057 */
+  src: url('iconfont.woff2?t=1657552809801') format('woff2'),
+       url('iconfont.woff?t=1657552809801') format('woff'),
+       url('iconfont.ttf?t=1657552809801') format('truetype');
+}
+
+.c-ui-icons {
+  font-family: "c-ui-icons" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.c-icon-iconfontmingpian:before {
+  content: "\e629";
+}
+
+.c-icon-iconfontriyongbaihuo:before {
+  content: "\e62c";
+}
+
+.c-icon-iconfontphone:before {
+  content: "\e634";
+}
+
+.c-icon-iconfontjixieqimo:before {
+  content: "\e639";
+}
+
+.c-icon-iconfontshumajiadian:before {
+  content: "\e63a";
+}
+
+.c-icon-iconfontshipin:before {
+  content: "\e63d";
+}
+
+.c-icon-iconfontxiangjiaosuliao:before {
+  content: "\e643";
+}
+
+.c-icon-iconfontyiqiyibiao:before {
+  content: "\e646";
+}
+
+.c-icon-iconfontzhaomingdianzi:before {
+  content: "\e648";
+}
+
+.c-icon-iconfontgongyichongwu:before {
+  content: "\e649";
+}
+
+.c-icon-iconfontfuwushichang:before {
+  content: "\e64d";
+}
+

@@ -1,0 +1,60 @@
+@use './mixins/mixins.scss' as *;
+
+@font-face {
+  font-family: "c-ui-icons"; /* Project id 3515057 */
+  src: url('./fonts/iconfont.woff2') format('woff2'),
+       url('./fonts/iconfont.woff') format('woff'),
+       url('./fonts/iconfont') format('truetype');
+}
+// 当前 class 是 c-icon
+[class^='#{$namespace}-icon'], [class*='#{$namespace}-icon'] {
+  font-family: "c-ui-icons" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$namespace}-icon-iconfontmingpian:before {
+  content: "\e629";
+}
+
+.#{$namespace}-icon-iconfontriyongbaihuo:before {
+  content: "\e62c";
+}
+
+.#{$namespace}-icon-iconfontphone:before {
+  content: "\e634";
+}
+
+.#{$namespace}-icon-iconfontjixieqimo:before {
+  content: "\e639";
+}
+
+.#{$namespace}-icon-iconfontshumajiadian:before {
+  content: "\e63a";
+}
+
+.#{$namespace}-icon-iconfontshipin:before {
+  content: "\e63d";
+}
+
+.#{$namespace}-icon-iconfontxiangjiaosuliao:before {
+  content: "\e643";
+}
+
+.#{$namespace}-icon-iconfontyiqiyibiao:before {
+  content: "\e646";
+}
+
+.#{$namespace}-icon-iconfontzhaomingdianzi:before {
+  content: "\e648";
+}
+
+.#{$namespace}-icon-iconfontgongyichongwu:before {
+  content: "\e649";
+}
+
+.#{$namespace}-icon-iconfontfuwushichang:before {
+  content: "\e64d";
+}

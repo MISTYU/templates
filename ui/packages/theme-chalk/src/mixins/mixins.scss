@@ -1,0 +1,3 @@
+// 声明公共的 scss 方法
+@use 'config' as c;
+@forward 'config'; // 把 config 里的变量变为全局变量

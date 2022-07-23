@@ -1,0 +1,15 @@
+{
+  "name": "@lch/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean:es": "rimraf ./es",
+    "clean:lib": "rimraf ./lib",
+    "clean": "pnpm run clean:es && pnpm run clean:lib",
+    "build": "gulp --require @esbuild-kit/cjs-loader"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

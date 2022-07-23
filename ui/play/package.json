@@ -1,0 +1,16 @@
+{
+  "name": "@lch/play",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.13",
+    "vue-router": "^4.0.16"
+  }
+}
